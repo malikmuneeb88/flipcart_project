@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Protest+Guerrilla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    height: 11vh;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 230px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 65px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "EB Garamond", serif;  
+}
+
+nav ul li a:hover{
+    font-weight: bolder; 
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    height: 69px;
+}
+
+.search input{
+    width: 350px;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 9px;
+}
+
+.search button{
+    font-family: "EB Garamond", serif;  
+}
+
+.slider{
+    margin: auto;
+    width: 70vw;
+    margin: 12px auto;
+}
+.container{
+    min-height: calc(100vh - 65px - 7vh);
+}
+footer{
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+}
