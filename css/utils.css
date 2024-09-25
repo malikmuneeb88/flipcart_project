@@ -16,3 +16,15 @@
 .btn:hover{
     font-weight: bolder;
 }
+
+.my-1{
+    margin: 1px 0;
+}
+
+.my-2{
+    margin: 10px 0;
+}
+
+.text-center{
+    text-align: center;
+}
